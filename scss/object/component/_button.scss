@@ -1,0 +1,28 @@
+.c-button {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background: $color_sub;
+  padding: $space_l $space_xl;
+  width: 100%;
+  font-size: $font-size_m;
+  color: #fff;
+  margin-top: $space_l;
+  margin-bottom: $space_l;
+  transition: .5s;
+  &--large {
+    width: 60%;
+    margin: 0 auto;
+  }
+  @include mq() {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+}
+
+.c-button:hover {
+  text-decoration: none;
+  background: #2cb26f;
+  transition: .5s;
+}

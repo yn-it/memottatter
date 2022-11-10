@@ -1,0 +1,10 @@
+.p-profEditIntro {
+  width: 100%;
+  margin-top: $space_3xl;
+  margin-bottom: $space_xl;
+  position: relative;
+
+  &__textarea {
+    height: 150px;
+  }
+}

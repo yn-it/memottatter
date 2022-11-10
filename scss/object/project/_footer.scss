@@ -1,0 +1,21 @@
+.p-footer {
+  background: $color_main;
+  width: 100%;
+  padding: $space_xl;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-family: $font-family_base;
+  &__text {
+    text-align: center;
+    color: $color_base;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  &__link {
+    color: $color_base;
+    text-decoration: underline;
+  }
+  &__link:hover {
+    text-decoration: none;
+  }
+}

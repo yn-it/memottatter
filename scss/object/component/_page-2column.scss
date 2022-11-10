@@ -1,0 +1,27 @@
+.c-page2column {
+  &__title {
+    font-size: $font-size_2xl;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 $space_3xl;
+    font-family: $font-family_base;
+  }
+  
+  &__container {
+    width: 80%;
+    max-width: 1024px;
+    margin: 70px auto 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @include mq(md) {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+    @include mq() {
+      margin: $space_4xl auto;
+    }
+  }
+}

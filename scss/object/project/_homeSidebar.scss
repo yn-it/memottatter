@@ -1,0 +1,20 @@
+.p-homeSidebar {
+  @include mq() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @include mq(sm) {
+    display: block;
+  }
+  &__list {
+    @include mq(sm) {
+      display: none;
+    }
+  }
+  &__item {
+    @include mq() {
+      margin-right: $space_s;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.p-header {
+  background: $color_main;
+  margin-bottom: $space_xl;
+  width: 100%;
+  height: 100%;
+  line-height: 80px;
+  box-sizing: border-box;
+  z-index: 2;
+
+  &__wrap {
+    background: $color_main;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 $space_4xl;
+    box-sizing: border-box;
+    z-index: 4;
+    @include mq(xxl) {
+      justify-content: space-between;
+    }
+    @include mq(){
+      padding: 0 $space_xl;
+      height: 60px; 
+    }
+  }
+
+  &__logo {
+    font-size: $font-size_xl;
+    line-height: 80px;
+    @include mq(){
+      font-size: 20px;
+      line-height: 60px;
+    }
+  }
+
+  &__link {
+    color: $color_base;
+    font-family: $font-family_logo;
+  }
+
+  &__msgSlide {
+    display: none;
+  }
+}
+
+// messeage slide style
+.is-slide {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  background: rgba(102,204,153,0.9);
+  text-align: center;
+  line-height: 80px;
+  font-family: $font-family_base;
+  font-size: $font-size_l;
+  font-weight: bold;
+  z-index: 5;
+  @include mq() {
+    height: 60px;
+    line-height: 60px;
+    font-size: $font-size_m;
+  }
+}

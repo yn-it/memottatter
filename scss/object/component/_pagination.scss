@@ -1,0 +1,31 @@
+.c-pagination {
+  position: relative;
+  margin: $space_xl auto;
+  font-family: $font-family_base;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__item {
+    box-sizing: border-box;
+    margin: $space_m $space_s $space_m 0;
+  }
+  &__link {
+    cursor: pointer;
+    display: block;
+    padding: $space_m;
+    border: 1px solid $color_background;
+    border-radius: 2px;
+    color: $color_main;
+  }
+  &__link--active {
+    color: $color_base;
+    background: $color_sub;
+    pointer-events: none;
+  }
+  &__link:hover {
+    color: $color_base;
+    background: $color_sub;
+  }
+}

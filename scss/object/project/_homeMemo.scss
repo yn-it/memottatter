@@ -1,0 +1,11 @@
+.p-homeMemo {
+  &__container {
+    background: $color_background;
+  }
+  &__nickname:hover {
+    text-decoration: underline;
+  }
+  &__sendDate:hover {
+    text-decoration: underline;
+  }
+}

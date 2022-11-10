@@ -1,0 +1,27 @@
+.c-textarea {
+  box-sizing: border-box;
+  display: block;
+  padding: $space_s $space_m;
+  width: 100%;
+  height: 200px;
+  border: none;
+  background: $color_background;
+  margin-top: $space_s;
+  margin-bottom: $space_l;
+  font-size: $font-size_m;
+  font-family: inherit;
+  @include mq() {
+    font-size: $font-size_l;
+  }
+
+  // error
+  &.has-error {
+    background: $color_err;
+  }
+
+  // focus
+  &:focus {
+    outline: 2px solid $color_outline;
+    border-radius: 3px;
+  }
+}

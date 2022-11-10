@@ -1,0 +1,72 @@
+.p-profile {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  @include mq(md) {
+    width: 100%;
+  }
+  @include mq(){
+    width: 90%;
+  }
+  &__container {
+    width: 100%;
+    border: 3px solid $color_sub;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    padding: $space_l;
+    margin-bottom: $space_xl;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @include mq(){
+      display: block;
+      padding: $space_m;
+    }
+  }
+  &__thumbnailsWrap {
+    width: 133.5px;
+    height: 133.5px;
+    border: 3px solid $color_sub;
+    position: relative;
+    margin: 0 $space_m;
+    color: $color_background;
+    @include mq() {
+      margin: $space_m auto;
+    }
+  }
+  &__info {
+    width: 75%;
+    height: 100%;
+    font-family: $font-family_base;
+    line-height: 1.6;
+    box-sizing: border-box;
+    padding: $space_m;
+    @include mq(){
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  &__name {
+    font-weight: bold;
+    font-size: $font-size_xl;
+    text-align: left;
+    padding-bottom: $space_s;
+  }
+
+  &__memoArea {
+    width: 100%;
+  }
+
+  &__memoContainer {
+    background: $color_background;
+  }
+
+  &__memoLink--shortStr {
+    @include mq() {
+      width: 50%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+     }
+  }
+}

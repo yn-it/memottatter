@@ -1,0 +1,22 @@
+.c-thumbnails {
+  width: 50px;
+  height: 50px;
+  margin-right: $space_s;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid $color_sub;
+  box-sizing: border-box;
+  text-align: center;
+  @include mq(md) {
+    margin-right: 0;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+}

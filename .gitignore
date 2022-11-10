@@ -1,0 +1,17 @@
+# 無視無視ファイル
+*.DS_Store
+php.log
+
+# fonts
+fonts
+
+# 画像
+uploads
+
+# パッケージ
+node_modules
+package.json
+yarn.lock
+
+#jquery
+jquery-3.6.1.min.js

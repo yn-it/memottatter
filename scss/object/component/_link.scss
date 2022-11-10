@@ -1,0 +1,15 @@
+.c-link {
+  text-decoration: underline;
+  color: $color_outline;
+  font-family: $font-family_base;
+  margin: $space_4xl;
+  @include mq(md){
+    margin: $space_2xl;
+  }
+  @include mq() {
+    margin: $space_xl;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}

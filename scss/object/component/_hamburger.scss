@@ -1,0 +1,89 @@
+// hamberger menu
+.c-hamburger{
+  position: relative;
+  bottom: 8px;
+  display: none;
+  width: 35px;
+  height: 27px;
+  cursor: pointer;
+  border: none;
+  background: $color_main;
+  box-sizing: border-box;
+  appearance: none;
+  z-index: 5;
+  font-weight: bold;
+  font-family: $font-family_base;
+  @include mq() {
+    box-sizing: border-box; 
+    display: inline-block;
+  }
+  &.is-active .c-hamburger__bar {
+    transition: .5s;
+    &--top {
+      -webkit-transform: translateY(11px) rotate(-45deg);
+      transform: translateY(11px) rotate(-45deg);
+    }
+    &--middle {
+      opacity: 0;
+    }
+    &--bottom {
+      -webkit-transform: translateY(11px) rotate(-45deg);
+      transform: translateY(-12px) rotate(45deg);
+    }
+  }
+  &.is-active .c-hamburger__title {
+    display: none;
+  }
+  &.is-active .c-hamburger__closeButton {
+    display: inline-block;
+    left: -7px;
+  }
+}
+
+// bar
+.c-hamburger__bar {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  border-radius: 4px;
+  background: $color_base;
+  transition: .5s;
+  &--top {
+    top: 0;
+  }
+  &--middle {
+    top: 12px;
+  }
+  &--bottom {
+    bottom: 0;
+  }
+}
+
+// title
+.c-hamburger__title {
+  color: $color_base;
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -3px;
+  height: 100%;
+  @include mq() {
+    display: inline-block;
+  }
+}
+
+// close button
+.c-hamburger__closeButton {
+  display: none;
+  color: $color_base;
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 100%;
+}

@@ -1,0 +1,27 @@
+.p-formPage2column {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+  &__container {
+    width: 90%;
+    @include mq(md) {
+      width: 100%;
+      padding: $space_l;
+    }
+    @include mq() {
+      width: 90%;
+      padding: $space_s;
+    }
+  }
+
+  &__formArea {
+    width: 80%;
+    margin: 0 auto;
+    @include mq(md) {
+      width: 75%;
+    }
+    @include mq(){
+      width: 95%;
+    }
+  }
+}

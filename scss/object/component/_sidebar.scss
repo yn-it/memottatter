@@ -1,0 +1,48 @@
+.c-sidebar {
+  padding: $space_l;
+  border: 3px solid $color_sub;
+  border-radius: 4px;
+  @include mq(md){
+    box-sizing: border-box;
+    margin-bottom: $space_l;
+  }
+  @include mq() {
+    display: none;
+  }
+  &__list {
+    @include mq(md) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    @include mq(){
+      display: none;
+    }
+  }
+  &__item {
+    margin-bottom: $space_l;
+    @include mq(md){
+      margin-bottom: 0;
+    }
+    @include mq() {
+      margin-bottom: $space_xl;
+    }
+  }
+  &__item:last-child {
+    margin-bottom: 0;
+    @include mq(){
+      margin-right: 0;
+    }
+  }
+  &__link {
+    color: $color_outline;
+    text-decoration: underline;
+    font-family: $font-family_base;
+    @include mq() {
+      margin: 0;
+    }
+  }
+  &__link:hover {
+    text-decoration: none;
+  }
+}

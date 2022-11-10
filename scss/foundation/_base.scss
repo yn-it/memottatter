@@ -1,0 +1,30 @@
+html, body {
+  line-height: 1.6;
+  box-sizing: border-box;
+  color: #333;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+// breakpoint
+$breakpoints: (
+  'sm': 'screen and (max-width: 576px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 992px)',
+  'xl': 'screen and (max-width: 1200px)',
+  'xxl': 'screen and (max-width: 1440px)',
+) !default;
+
+// mixin
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)}{
+    @content;
+  }
+}

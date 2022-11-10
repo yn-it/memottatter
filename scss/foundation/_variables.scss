@@ -1,0 +1,38 @@
+// background color
+$color_sub: #66cc99;
+$color_base: #fff;
+$color_main: #33664d;
+$color_err: #f6cdd1;
+$color_danger: #ff405b;
+$color_outline: #4d9973;
+$color_background: #f6f6f6;
+$color_date: #536471;
+
+// font-family
+@font-face {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf') format('truetype');
+}
+$font-family_base: "Segoe UI", Meiryo, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family_logo: "Mochiy Pop One", sans-serif;
+
+// font-size
+$font-size_s: 14px;
+$font-size_m: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_2xl: 30px;
+
+// space
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_2xl: 25px;
+$space_3xl: 30px;
+$space_4xl: 40px;
+
+// site-width
+$site-width: 1024px;

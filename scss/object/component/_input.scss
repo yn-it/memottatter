@@ -1,0 +1,33 @@
+.c-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: $space_l $space_m;
+  border: none;
+  background: $color_background;
+  margin-top: $space_s;
+  margin-bottom: $space_m;
+  font-size: $font-size_m;
+  font-family: inherit;
+  @include mq() {
+    font-size: $font-size_l;
+  }
+  
+  &:focus {
+    outline: 2px solid $color_outline;
+  }
+
+  // chackbox
+  &__checkbox {
+    width: $space_l;
+    height: $space_l;
+    position: relative;
+    top: 1px;
+    left: -4px;
+  }
+
+  // error
+  &.has-error {
+    background: $color_err;
+  }
+}
