@@ -109,7 +109,8 @@ debug('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ç”»é
 
       <!-- main -->
       <main id="l-main">
-        <img src="screenshot.png" alt="screenshot" style="display:none;">
+        <img src="screenshot.jpg" alt="screenshot" style="display:none;">
+        
         <!-- memo -->
         <div class="c-memo p-homeMemo">
           <?php
