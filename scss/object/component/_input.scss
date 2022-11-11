@@ -12,7 +12,6 @@
   @include mq() {
     font-size: $font-size_l;
   }
-  
   &:focus {
     outline: 2px solid $color_outline;
   }

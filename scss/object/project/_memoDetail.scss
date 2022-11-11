@@ -12,7 +12,6 @@
     width: 100%;
     background: $color_background;
   }
-
   &__link--shortStr {
     @include mq() {
       width: 50%;
@@ -21,11 +20,9 @@
       text-overflow: ellipsis;
      }
   }
-
   &__comment {
     font-size: $font-size_xl;
   }
-
   &__imgWrap {
     max-height: 100%;
   }

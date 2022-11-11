@@ -1,7 +1,6 @@
 .p-formPage2column {
     margin-top: 0;
     margin-bottom: 40px;
-
   &__container {
     width: 90%;
     @include mq(md) {
@@ -13,7 +12,6 @@
       padding: $space_s;
     }
   }
-
   &__formArea {
     width: 80%;
     margin: 0 auto;

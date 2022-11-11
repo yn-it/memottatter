@@ -226,7 +226,6 @@ debug('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 画�
                     <div class="p-myMemoImg__wrap js-dropMemoImgArea">
                       <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
                       <input type="file" name="board_pic" class="c-inputFile p-myMemoImg__inputFile js-fileInput">
-                      <!-- <input type="file" name="board_pic" class="c-inputFile p-myMemo__inputFile2 js-fileInput"> -->
                       <div class="c-inputFile__info p-myMemo__info js-dropInfo" style="<?php if (!empty($dbBoardsData['board_pic'])) echo 'display: none;'; ?>">
                         ここにファイルをドロップ<br>または<br>ファイルを選択
                       </div>
@@ -241,7 +240,6 @@ debug('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 画�
                     <div class="p-myMemoImg__wrap js-dropMemoImgArea">
                       <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
                       <input type="file" name="board_pic" class="c-inputFile p-myMemoImg__inputFile js-fileInput">
-                      <!-- <input type="file" name="board_pic" class="c-inputFile p-myMemo__inputFile2 js-fileInput"> -->
                       <div class="c-inputFile__info p-myMemo__info js-dropInfo">
                         ここにファイルをドロップ<br>または<br>ファイルを選択
                       </div>

@@ -175,7 +175,6 @@ debug('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 画�
                   <div class="c-thumbnails p-profEditThumbnails__wrap js-dropArea">
                     <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
                     <input type="file" name="user_pic" class="c-inputFile p-profEditThumbnails__inputFile js-fileInput">
-                    <!-- <input type="file" name="user_pic" class="c-inputFile p-thumbnails__inputFile js-fileInput"> -->
                     <div class="c-inputFile__info p-profEditThumbnails__info js-dropInfo" style="<?php if (!empty($dbProfData['user_pic'])) echo 'display: none;'; ?>">
                       ここにファイルをドロップ<br>または<br>ファイルを選択
                     </div>

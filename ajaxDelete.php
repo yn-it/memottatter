@@ -39,7 +39,6 @@ if (isset($_POST) && isset($_POST['boardid']) && isLogin()) {
       
       // ホーム画面へ遷移
       debug('【ページ名: ajaxDelete.php】ホーム画面へ遷移します');
-      // header("Location:https://yn-it.com/memottatter/home.php");
 
     }
   } catch (Exception $e) {

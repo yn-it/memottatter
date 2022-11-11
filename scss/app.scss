@@ -1,25 +1,27 @@
-/**
- * Foundation
- * ========================== */
+// ==========================================================================
+// Foundation
+// ==========================================================================
 @import "foundation/base";
 @import "foundation/reset";
 @import "foundation/variables";
 
 
-/**
- * Layout
- * ========================== */
+// ==========================================================================
+// Layout
+// ==========================================================================
 @import "layout/footer";
 @import "layout/header";
 @import "layout/main";
 @import "layout/sidebar";
 
 
+// ==========================================================================
+// Object
+// ==========================================================================
 
-/* Object
-* ========================== */
-
-/* Component ------------ */
+// -----------------------------------------------------------------
+// Component
+// -----------------------------------------------------------------
 @import "object/component/button";
 @import "object/component/container";
 @import "object/component/counter";
@@ -37,7 +39,9 @@
 @import "object/component/textarea";
 @import "object/component/thumbnails";
 
-/* Project ------------ */
+// -----------------------------------------------------------------
+// Project
+// -----------------------------------------------------------------
 @import "object/project/footer";
 @import "object/project/formPage2column";
 @import "object/project/header";

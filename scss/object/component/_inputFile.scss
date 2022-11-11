@@ -7,7 +7,6 @@
   left: 0;
   z-index: 2;
   display: block;
-
   &__info {
     width: 100%;
     line-height: 1.5;
@@ -23,7 +22,6 @@
       display: none;
     }
   }
-  
   &__info--sp {
     display: none;
     @include mq() {
