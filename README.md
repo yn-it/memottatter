@@ -20,7 +20,7 @@ FLOCSSを使ってみました
 ## Screenshot
 ![memottatter](https://github.com/yn-it/memottatter/blob/main/screenshot2.png "memottatter")
 
-## Implemented Feature (実装した機能)
+## Implemented Features (実装した機能)
 * ユーザー登録
 * ログイン・ログアウト
 * 退会
@@ -33,3 +33,20 @@ FLOCSSを使ってみました
 * 画像プレビュー表示
 * いいね機能
 * ページング
+
+## Requirements
+* macOS
+* PHP Version 7.4.28
+
+## Coding Languages
+* HTML
+* CSS
+* PHP
+* JavaScript
+
+## Package Manager
+* Yarn
+  * sass
+  * jQuery
+  * fontawesome (ローカル開発時)
+  * dart-sass (ローカル開発時)
