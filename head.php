@@ -18,6 +18,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@ynit1979">
 
+  <!-- <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"> -->
   <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
   <link rel="stylesheet" href="css/app.css">
   <script>
