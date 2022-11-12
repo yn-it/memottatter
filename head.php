@@ -12,7 +12,7 @@
   <meta property="og:description" content="ただのメモ帳です">
   <meta property="og:url" content="https://yn-it.com/memottatter/home.php">
   <meta property="og:site_name" content="めもったったー">
-  <meta property="og:image" content="https://yn-it.com/memottatter/screenshot.png">
+  <meta property="og:image" content="https://yn-it.com/memottatter/screenshot.jpg">
 
   <!-- Twitter用のOGPの設定 -->
   <meta name="twitter:card" content="summary_large_image">
